@@ -1,9 +1,9 @@
 class Ks < Formula
   desc "Switch between kube contexts faster"
   homepage "https://github.com/majestic-fox/ks"
-  url "https://github.com/majestic-fox/ks/releases/download/0.0.6/ks_darwin_amd64"
-  version "0.0.6"
-  sha256 "cfb5ec66066da8eaa93567661104cf14f8bf2e1dcb27210b8592a351cc1408cd"
+  url "https://github.com/majestic-fox/ks/releases/download/0.0.7/ks_darwin_amd64"
+  version "0.0.7"
+  sha256 "1338f57c3ed91db5e269124f802f52db4c4f22147860d04d790d34bfe3729ca5"
   # depends_on "cmake" => :build
 
   def install
