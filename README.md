@@ -1,17 +1,17 @@
-homebrew-foxy-tap
+homebrew-tap
 ===============
 
 How do I install these formulae?
 --------------------------------
-  Setup homebrew tap using: ```brew tap vimond/homebrew-foxy-tap git@github.com:majestic-fox/homebrew-foxy-tap.git```
+  Setup homebrew tap using: ```brew tap sergiomss/homebrew-tap git@github.com:sergiomss/homebrew-tap.git```
   
 and then 
 
 `brew install <formula>`
 
 Current list of formulae:
-* [ks](https://github.com/majestic-fox/ks)
-* [swiss-army-knife](https://github.com/majestic-fox/swiss-army-knife)
+* [ks](https://github.com/sergiomss/ks)
+* [swiss-army-knife](https://github.com/sergiomss/swiss-army-knife)
 
 Docs
 ----
