@@ -1,20 +1,20 @@
 class Ks < Formula
   desc "Switch between kube contexts faster"
   homepage "https://github.com/sergiomss/ks"
-  version "1.0.2"
+  version "1.0.4"
 
   on_macos do
       if Hardware::CPU.arm?
-        url "https://github.com/sergiomss/ks/releases/download/1.0.2/ks_darwin_arm64"
-        sha256 "60d0a9db25961b5dc38d12333c1d08c91d41336f485696c2dcd0031199ca3c3c"
+        url "https://github.com/sergiomss/ks/releases/download/1.0.4/ks_darwin_arm64"
+        sha256 "849802ca3bb75848a0fd1b1ee4e03b25020a50f75cf6c6cdad37fb009524e11d"
 
         def install
           bin.install "ks_darwin_arm64" => "ks"
         end
       end
       if Hardware::CPU.intel?
-        url "https://github.com/sergiomss/ks/releases/download/1.0.2/ks_darwin_amd64"
-        sha256 "504df9cf20c466d711de935513353b844e59b8990a5d58fabc6bc5407b9b38c9"
+        url "https://github.com/sergiomss/ks/releases/download/1.0.4/ks_darwin_amd64"
+        sha256 "4782886d4151ce0633a25bc3f42c0d920f88e39f4e2e9f97b1fb9dccec7260ff"
 
         def install
           bin.install "ks_darwin_amd64" => "ks"
@@ -24,16 +24,16 @@ class Ks < Formula
 
     on_linux do
       if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-        url "https://github.com/sergiomss/ks/releases/download/1.0.2/ks_linux_arm64"
-        sha256 "28db19d7ee88ab6d556f07c57d3d63d75a28eb72e31cda1e2e36947a440fe177"
+        url "https://github.com/sergiomss/ks/releases/download/1.0.4/ks_linux_arm64"
+        sha256 "8568465857ce3687924ce4e86d2c224bcd0d10b7876b35d584b4ba2026d2263f"
 
         def install
           bin.install "ks_linux_arm64" => "ks"
         end
       end
       if Hardware::CPU.intel?
-        url "https://github.com/sergiomss/ks/releases/download/1.0.2/ks_linux_amd64"
-        sha256 "30ac056198b414beb40591a739325a869e9c0ff40859b205bfdc47e387085726"
+        url "https://github.com/sergiomss/ks/releases/download/1.0.4/ks_linux_amd64"
+        sha256 "3af720dfd6e8fe5f4194ab2dd6401224c88ec9a07f11406a0c05b1f08258ce38"
 
         def install
           bin.install "ks_linux_amd64" => "ks"
